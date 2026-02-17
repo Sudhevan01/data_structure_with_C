@@ -139,7 +139,7 @@ NODE create(NODE root,int item)
       if(root != NULL)
 	{
 	   postorder(root->llink);
-	   postorder(root->llink);
+	   postorder(root->rlink);
 	   printf("%d \t",root->data);
 	}
       }
